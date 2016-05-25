@@ -1,5 +1,6 @@
 # octodex
-# CSS Layout is one of the most important things to learn early on. This exercise helps you learn that
+
+CSS Layout is one of the most important things to learn early on. This exercise helps you learn that
 
 Understand HTML/CSS Layout
 Be able to place any element on a page where you want it.
