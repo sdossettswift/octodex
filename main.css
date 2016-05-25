@@ -1,0 +1,22 @@
+.octocat{
+  border: 1px solid #7f8c8d;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  width: 445px;
+
+}
+.octocat img{
+  height: 440px;
+}
+.image-footer{
+  color: #bdc3c7;
+}
+
+.image-number{
+
+}
+
+.image-caption{
+
+}
