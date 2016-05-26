@@ -2,8 +2,8 @@
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;;
-
+  justify-content: center;
+  margin: 5px;
   /*align-content: flex-start;
   align-items: flex-start;
   min-width: 350px;*/
@@ -11,12 +11,14 @@
 .octocat{
   align-content: center;
   align-items: stretch;
+  margin: 0px 10px;
 }
 
 .octocat img{
   max-width: 300px;
   /*padding: 20px;*/
-  border: 2px solid grey;
+  border: 2px solid #bdc3c7;
+  border-radius: 5px;
   flex: auto;
 }
 .image-footer{
@@ -24,38 +26,38 @@
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #bdc3c7;
 
 }
 .image-footer a{
   text-decoration: none;
   color: black;
-  height: 55px;
+  /*height: 60px;*/
   vertical-align: bottom;
-  border-left: solid white 3px;
+
   /*display: inline-flex;*/
 }
 .image-number{
-  display: inline;
-  padding-right: 10px;
+  padding-right:30px;
 }
 
 .image-caption {
     height: 25px;
-    padding: 0;
 }
 .authors img{
   height: 25px;
   width: 25px;
   border: none;
+  border-radius: 5px;
   margin: 2px;
   display: inline-block;
   /*display: inline-flex;*/
+
 }
 .authors{
-  margin-top: -20px;
-  padding-left: 10px;
-  align-self: flex-end;
+    margin-top: -5px;
+    float: right;
+}
 }
 .authors ul{
   text-decoration: none;
