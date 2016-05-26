@@ -12,6 +12,7 @@
   align-content: center;
   align-items: stretch;
   margin: 0px 10px;
+  width: 300px;
 }
 
 .octocat img{
@@ -23,26 +24,27 @@
 }
 .image-footer{
   color: #bdc3c7;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
-  display: flex;
   border-bottom: 2px solid #bdc3c7;
-
+  margin-bottom: 10px;
+  vertical-align: middle;
 }
 .image-footer a{
   text-decoration: none;
-  color: black;
-  /*height: 60px;*/
+  color: #2c3e50;
   vertical-align: bottom;
 
   /*display: inline-flex;*/
 }
 .image-number{
-  padding-right:30px;
+  padding-right:20px;
 }
 
 .image-caption {
     height: 25px;
+    display: inline-block;
+
 }
 .authors img{
   height: 25px;
@@ -52,6 +54,8 @@
   margin: 2px;
   display: inline-block;
   /*display: inline-flex;*/
+  margin-left: 0;
+  padding: 0;
 
 }
 .authors{
@@ -61,6 +65,7 @@
 }
 .authors ul{
   text-decoration: none;
+  padding: -20px;
 }
 ul ul, ol ul, ul, li{
   list-style-type: none;
